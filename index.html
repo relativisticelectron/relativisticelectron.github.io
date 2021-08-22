@@ -9,7 +9,66 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play The adventure to understanding Bitcoin.</tw-noscript></noscript></tw-story>
-<tw-storydata name="The adventure to understanding Bitcoin" startnode="1" creator="Twine" creator-version="2.3.14" ifid="D5321DBA-D235-4134-9BD8-772EBFE70288" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="The adventure to understanding Bitcoin" startnode="1" creator="Twine" creator-version="2.3.14" ifid="D5321DBA-D235-4134-9BD8-772EBFE70288" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">#forkongithub a {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 40px;
+  font-size: 1rem;
+  line-height: 2rem;
+  position: relative;
+  transition: 0.5s;
+}
+#forkongithub a:hover {
+  background: #c11;
+  color: #fff;
+}
+#forkongithub a::before,
+#forkongithub a::after {
+  content: "";
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  height: 1px;
+  background: #fff;
+}
+#forkongithub a::after {
+  bottom: 1px;
+  top: auto;
+}
+@media screen and (min-width: 800px) {
+  #forkongithub {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 200px;
+    overflow: hidden;
+    height: 200px;
+    z-index: 9999;
+  }
+  #forkongithub a {
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    right: -0px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+  }
+}
+
+
+
+
 tw-story {
   display: -ms-flexbox;
   display: flex;
@@ -26,6 +85,8 @@ tw-story {
   background-color: #f1f2f3;
   color: #000;
 }
+
+
 .auto-resizable-iframe {
   max-width: 600px;
   margin: 0px auto;
@@ -44,7 +105,7 @@ tw-story {
   width: 100%;
   height: 100%;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Why Bitcoin?" tags="" position="134,191.5" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[=
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Why Bitcoin?" tags="" position="134,191" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[=
 &lt;h3&gt; The adventure to understanding &lt;img src=&quot;https://cryptologos.cc/logos/bitcoin-btc-logo.png&quot; width=40px&gt; Bitcoin &lt;/h3&gt;
 
 Choose your preference
@@ -53,7 +114,7 @@ Choose your preference
 
 
 (button:)[[Property rights and trade are the basis for human development-&gt;Propterty rights]]
-(button:)[[The government is the basis for human development]]</tw-passagedata><tw-passagedata pid="2" name="Propterty rights" tags="" position="796,48.5" size="100,100">
+(button:)[[The government is the basis for human development]]</tw-passagedata><tw-passagedata pid="2" name="Propterty rights" tags="" position="796,48" size="100,100">
 
 1. Property rights are a requirement of trade (Why trade anything if you don&#39;t own something afterwards?)
 2. More trade is better for everyone (You would not trade if it wouldn&#39;t benefit you)
@@ -62,12 +123,12 @@ Choose your preference
 
 (button:)[[PayPal &amp; TransferWise are great for international trade]]
 (button:)[[International trade is sooooo complicated]]
-(button:)[[Each country can be self-sufficient]]</tw-passagedata><tw-passagedata pid="3" name="The government is the basis for human development" tags="" position="379,257.5" size="100,100">Choose your preference
+(button:)[[Each country can be self-sufficient]]</tw-passagedata><tw-passagedata pid="3" name="The government is the basis for human development" tags="" position="379,257" size="100,100">Choose your preference
 
 
 (button:)[[The government should tax more-&gt;Tax more]]
 (button:)[[The government should tax less]]
-(button:)[[The government can just print the money]]</tw-passagedata><tw-passagedata pid="4" name="The government has to take more from the rich" tags="" position="148,520.5" size="100,100">I am sure you have good intentions. However sometimes good intentions lead you down a slippery slope.
+(button:)[[The government can just print the money]]</tw-passagedata><tw-passagedata pid="4" name="The government has to take more from the rich" tags="" position="148,520" size="100,100">I am sure you have good intentions. However sometimes good intentions lead you down a slippery slope.
 After repeating the step &quot;//The government has to take more from the rich//&quot; over and over one arrives at a system called Socialism / Communism. And this system has been tried many times (UdSSR, North Korea, Venezuela, Cuba, China) and this system creates unthinkable horrors and human misery in enormous scales:
 
 
@@ -82,7 +143,7 @@ width=&quot;500px&quot;&gt;&lt;/iframe&gt;
 
 
 (button:)[[This time communism will work-&gt;The government has to take more from the rich]] 
-(button:)[[Maybe one should have less government-&gt;The government should tax less]] </tw-passagedata><tw-passagedata pid="5" name="PayPal &amp; TransferWise are great for international trade" tags="" position="831,243.5" size="100,100">No doubt: PayPal and other financial services reduce the friction of international money transfer. &#39;&#39;However&#39;&#39;
+(button:)[[Maybe one should have less government-&gt;The government should tax less]] </tw-passagedata><tw-passagedata pid="5" name="PayPal &amp; TransferWise are great for international trade" tags="" position="831,243" size="100,100">No doubt: PayPal and other financial services reduce the friction of international money transfer. &#39;&#39;However&#39;&#39;
 * Not available in many countries:   &lt;a href=&quot;https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information&quot;&gt;https://home.treasury.gov/policy-issues/office-of-foreign-assets-control-sanctions-programs-and-information&lt;/a&gt; 
 * Fees for conversion and remittances (WesternUnion) are high, especially for low value transmission
 * If PayPal doesn&#39;t like you, you don&#39;t get an account
@@ -92,21 +153,21 @@ width=&quot;500px&quot;&gt;&lt;/iframe&gt;
 So what?  Give up?
 
 (button:)[[Work with governments to reduce financial barriers]]
-(button:)[[Use Bitcoin]]</tw-passagedata><tw-passagedata pid="6" name="International trade is sooooo complicated" tags="" position="986,200.5" size="100,100">Yes it is. And one reason are the different currencies:
+(button:)[[Use Bitcoin]]</tw-passagedata><tw-passagedata pid="6" name="International trade is sooooo complicated" tags="" position="986,200" size="100,100">Yes it is. And one reason are the different currencies:
 
 * Foreign currencies introduce: volatility, need for many bank accounts (with fees), many payment processors, book-keeping headaches, tax headaches
 
 (button:)[[Use Bitcoin for all international payments-&gt;Use Bitcoin]]
-</tw-passagedata><tw-passagedata pid="7" name="Each country can be self-sufficient" tags="" position="1212,108.5" size="100,100">In principle yes, but in practice international trade is just as beneficial as in-country trade (for everyone). 
+</tw-passagedata><tw-passagedata pid="7" name="Each country can be self-sufficient" tags="" position="1212,108" size="100,100">In principle yes, but in practice international trade is just as beneficial as in-country trade (for everyone). 
 
 
 (button:)[[The government should reduce international trade]]
-(button:)[[Lets get more international trade-&gt;Use Bitcoin]]</tw-passagedata><tw-passagedata pid="8" name="Work with governments to reduce financial barriers" tags="" position="836,423.5" size="100,100">After decades of trying, staggering amounts of people are unbanked (have NO access to basic financial services).
+(button:)[[Lets get more international trade-&gt;Use Bitcoin]]</tw-passagedata><tw-passagedata pid="8" name="Work with governments to reduce financial barriers" tags="" position="836,423" size="100,100">After decades of trying, staggering amounts of people are unbanked (have NO access to basic financial services).
 //Even// in the //USA//, there are &#39;&#39;7%&#39;&#39; people unbanked
 
 &lt;iframe height=&quot;500&quot; width=&quot;80%&quot; src=&quot;https://www.gfmag.com/global-data/economic-data/worlds-most-unbanked-countries&quot;&gt;&lt;/iframe&gt;
 
-(button:)[[How can Bitcoin change this?-&gt;Use Bitcoin]]</tw-passagedata><tw-passagedata pid="9" name="Use Bitcoin" tags="" position="1027,491.5" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;img src=&quot;https://cryptologos.cc/logos/bitcoin-btc-logo.png&quot; width=50px&gt;  
+(button:)[[How can Bitcoin change this?-&gt;Use Bitcoin]]</tw-passagedata><tw-passagedata pid="9" name="Use Bitcoin" tags="" position="1027,491" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;img src=&quot;https://cryptologos.cc/logos/bitcoin-btc-logo.png&quot; width=50px&gt;  
 &lt;div class=&quot;auto-resizable-iframe&quot; width=&quot;50%&quot;&gt;
   &lt;div&gt;
     &lt;iframe frameborder=&quot;0&quot; src=&quot;https://www.youtube.com/embed/Gc2en3nHxA4&quot;&gt;&lt;/iframe&gt;
@@ -119,21 +180,21 @@ So what?  Give up?
 (button:)[[Bitcoin should not be used because one cannot tax the rich-&gt;The government has to take more from the rich]]
 (button:)[[I will buy it when it dips to get rich quick]]
 (button:)[[I want to learn]]
-</tw-passagedata><tw-passagedata pid="10" name="The government should reduce international trade" tags="" position="1274,424.5" size="100,100">More trade is better for everyone (You would not trade if it wouldn&#39;t benefit you)
+</tw-passagedata><tw-passagedata pid="10" name="The government should reduce international trade" tags="" position="1274,424" size="100,100">More trade is better for everyone (You would not trade if it wouldn&#39;t benefit you)
 
 
 
 (button:)[[The government can just tax more from the rich to compensate-&gt;Tax more]]
 (button:)[[International trade is sooooo complicated]]
-</tw-passagedata><tw-passagedata pid="11" name="Bitcoin is a Ponzy Scheme" tags="" position="877,641.5" size="100,100">No. A Ponzi scheme pays out investors by new influx of money. 
+</tw-passagedata><tw-passagedata pid="11" name="Bitcoin is a Ponzy Scheme" tags="" position="877,641" size="100,100">No. A Ponzi scheme pays out investors by new influx of money. 
 * Example: Player A is being promised to triple his money (100 USD). Player B and C also want to triple their 100 USD.  Player A now gets the 300 USD collected from Player A,B,C.  This obiously cannot continue indefinitely and needs an exponential growing people paying money into this scheme.
 
 Bitcoin is nothing of this sort. It promises nothing, no return, no gain. The only reason Bitcoin is valuable is that people &#39;&#39;value&#39;&#39; the Bitcoin network and the Bitcoin token in the Bitcoin network. Bitcoin is like Pokemon Cards. Why the heck do they have value? 
 
 
-(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="12" name="Bitcoin is a speculative investment" tags="" position="1027,641.5" size="100,100">Bitcoin is many thing to many people.  
+(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="12" name="Bitcoin is a speculative investment" tags="" position="1027,641" size="100,100">Bitcoin is many thing to many people.  
 
-And if you want to invest in any asset it is your choice.  However Bitcoin is so much more than some equity:
+And if you want to invest in any asset it is your choice.  However Bitcoin is so much more than some asset:
 
 * A freedom money
 * Property rights enforced by math and code
@@ -143,20 +204,20 @@ And if you want to invest in any asset it is your choice.  However Bitcoin is so
 
 
 (button:)[[I want to learn]]
-(button:)[[What does freedom have to do with money?]]</tw-passagedata><tw-passagedata pid="13" name="Bitcoin is just one of many cryptocurrencies" tags="" position="1157,641.5" size="100,100">&lt;iframe src=&quot;https://anchor.fm/thecryptoconomy/embed/episodes/Read_417---On-Schelling-Points--Network-Effects---Lindy-Willem-Van-Den-Bergh-eghjp4/a-a2lor55&quot; height=&quot;102px&quot; width=&quot;400px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+(button:)[[What does freedom have to do with money?]]</tw-passagedata><tw-passagedata pid="13" name="Bitcoin is just one of many cryptocurrencies" tags="" position="1157,641" size="100,100">&lt;iframe src=&quot;https://anchor.fm/thecryptoconomy/embed/episodes/Read_417---On-Schelling-Points--Network-Effects---Lindy-Willem-Van-Den-Bergh-eghjp4/a-a2lor55&quot; height=&quot;102px&quot; width=&quot;400px&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
 
 
-(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="14" name="Tax more" tags="" position="258,382.5" size="100,100">* Tax is using //force// to steal from those who created value (noone earns money without giving or creating value for other people) 
+(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="14" name="Tax more" tags="" position="258,382" size="100,100">* Tax is using //force// to steal from those who created value (noone earns money without giving or creating value for other people) 
 * How can force / cohersion from anyone (including any government) be a good thing?
 * There is no choice and therefore no competition to increase the quality of the government and government services
 
 
 (button:)[[Tax less-&gt;The government should tax less]]
 (button:)[[Tax should be increased, because that is what works-&gt;The government has to take more from the rich]]
-</tw-passagedata><tw-passagedata pid="15" name="The government should tax less" tags="" position="615,563.5" size="100,100">
+</tw-passagedata><tw-passagedata pid="15" name="The government should tax less" tags="" position="615,563" size="100,100">
 
 (button:)[[Tax less and print more-&gt;The government can just print the money]]
-(button:)[[Tax less and pay to private companies for those services that you really want]]</tw-passagedata><tw-passagedata pid="16" name="The government can just print the money" tags="" position="394,591.5" size="100,100">Printing money? Is the answer so easy?  
+(button:)[[Tax less and pay to private companies for those services that you really want]]</tw-passagedata><tw-passagedata pid="16" name="The government can just print the money" tags="" position="394,591" size="100,100">Printing money? Is the answer so easy?  
 
 But what does printing money actually do?  Can the government create value out of thin air?
 
@@ -188,7 +249,7 @@ That is exactly what happens in the real economy too.
 (button:)[[Ok, printing money is not a good idea-&gt;Propterty rights]]
 (button:)[[Government intervention creates a net benefit-&gt;The government has to take more from the rich]]
 (button:)[[We must print money to pay for all the debt]]
-</tw-passagedata><tw-passagedata pid="17" name="Tax less and pay to private companies for those services that you really want" tags="" position="689,416.5" size="100,100">Why are we talking about tax? Because it is one of the examples how governments reduce property rights
+</tw-passagedata><tw-passagedata pid="17" name="Tax less and pay to private companies for those services that you really want" tags="" position="689,416" size="100,100">Why are we talking about tax? Because it is one of the examples how governments reduce property rights
 
 
 (button:)[[Property rights are great-&gt;Propterty rights]]
@@ -201,32 +262,38 @@ That is exactly what happens in the real economy too.
 
 Podcast Collection:
 &lt;a href=&quot;https://bitcoin-only.com/podcasts&quot;&gt;https://bitcoin-only.com/podcasts&lt;/a&gt; 
+
+
+
+&lt;span id=&quot;forkongithub&quot;&gt;&lt;a href=&quot;https://github.com/relativisticelectron/relativisticelectron.github.io&quot;&gt;Fork me on GitHub&lt;/a&gt;&lt;/span&gt;
 </tw-passagedata><tw-passagedata pid="19" name="Bitcoin Links" tags="" position="69,1247" size="100,100">* &lt;a href=&quot;https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1&quot;&gt;https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1&lt;/a&gt; 
 * &lt;a href=&quot;bitcoin-only.com&quot;&gt;https://bitcoin-only.com&lt;/a&gt; 
 * &lt;a href=&quot;https://learn.saylor.org/course/PRDV151&quot;&gt;https://learn.saylor.org/course/PRDV151&lt;/a&gt; 
 
-</tw-passagedata><tw-passagedata pid="20" name="I want to learn" tags="" position="940,874.5" size="100,100">(button:)[[I want to listen and learn-&gt;Audio materials]]
-(button:)[[Give me links-&gt;Bitcoin Links]]</tw-passagedata><tw-passagedata pid="21" name="I will buy it when it dips to get rich quick" tags="" position="1289,641.5" size="100,100">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W8GDsddB1us&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
-(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="22" name="Bitcoin uses too much energy" tags="" position="1427,645.5" size="100,100">People are paying for the energy that is used by Bitcoin mining. And they would not pay for any service if this would not be worth it for them. 
+
+&lt;span id=&quot;forkongithub&quot;&gt;&lt;a href=&quot;https://github.com/relativisticelectron/relativisticelectron.github.io&quot;&gt;Fork me on GitHub&lt;/a&gt;&lt;/span&gt;</tw-passagedata><tw-passagedata pid="20" name="I want to learn" tags="" position="940,874" size="100,100">(button:)[[I want to listen and learn-&gt;Audio materials]]
+(button:)[[Give me links-&gt;Bitcoin Links]]</tw-passagedata><tw-passagedata pid="21" name="I will buy it when it dips to get rich quick" tags="" position="1289,641" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[&lt;iframe width=&quot;760&quot; height=&quot;515&quot; src=&quot;https://www.youtube.com/embed/W8GDsddB1us&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+]
+(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="22" name="Bitcoin uses too much energy" tags="" position="1427,645" size="100,100">People are paying for the energy that is used by Bitcoin mining. And they would not pay for any service if this would not be worth it for them. 
 
 Do you really want to tell people how they should spend their money?  What about Xbox? What about driving a car?  How could anyone measure the value except for those who actually need to spend the money?
 
-(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="23" name="We must print money to pay for all the debt" tags="" position="247,701.5" size="100,100">Debt... oh now it gets complicated.  Lets first understand how the economy works
+(button:)[[I want to learn]]</tw-passagedata><tw-passagedata pid="23" name="We must print money to pay for all the debt" tags="" position="247,701" size="100,100">Debt... oh now it gets complicated.  Lets first understand how the economy works
 
 &lt;iframe width=&quot;960&quot; height=&quot;615&quot; src=&quot;https://www.youtube.com/embed/PHe0bXAIuk0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
 (button:)[[The government has to redistribute the wealth to the poor-&gt;The government has to take more from the rich]]
-(button:)[[Can bitcoin be used to escape this system]]</tw-passagedata><tw-passagedata pid="24" name="Can bitcoin be used to escape this system" tags="" position="419,746.5" size="100,100">The short answer is &#39;&#39;yes&#39;&#39;. But don&#39;t expect to have an easy time. The governments do not like to loose power:
+(button:)[[Can bitcoin be used to escape this system]]</tw-passagedata><tw-passagedata pid="24" name="Can bitcoin be used to escape this system" tags="" position="419,746" size="100,100">The short answer is &#39;&#39;yes&#39;&#39;. But don&#39;t expect to have an easy time. The governments do not like to loose power:
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/ImXHelK0J1g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 Did you listen: They don&#39;t want you to //escape//. //&#39;&#39;Escape&#39;&#39;//. How that reminds me of every communist regime ever.
 
 
 (button:)[[I want to learn, even though it will not be easy-&gt;I want to learn]]
-(button:)[[The government has to take more from the rich]]</tw-passagedata><tw-passagedata pid="25" name="What does freedom have to do with money?" tags="" position="1200,824.5" size="100,100">Check out the blog &lt;a href=&quot;https://alexgladstein.com/bitcoin/&quot;&gt;https://alexgladstein.com/bitcoin/&lt;/a&gt;   from an employee at the  &lt;a href=&quot;https://hrf.org/team/alex-gladstein/&quot;&gt;Human Rights Foundation&lt;/a&gt;    
+(button:)[[The government has to take more from the rich]]</tw-passagedata><tw-passagedata pid="25" name="What does freedom have to do with money?" tags="" position="1200,824" size="100,100">Check out the blog &lt;a href=&quot;https://alexgladstein.com/bitcoin/&quot;&gt;https://alexgladstein.com/bitcoin/&lt;/a&gt;   from an employee at the  &lt;a href=&quot;https://hrf.org/team/alex-gladstein/&quot;&gt;Human Rights Foundation&lt;/a&gt;    
  
  
 (button:)[[I want to learn]]</tw-passagedata></tw-storydata>
